@@ -5,7 +5,7 @@ Homebrew Core 源使用帮助
 地址
 ====
 
-https://mirrors.ustc.edu.cn/homebrew-core.git/
+https://mirrors.geekpie.org/homebrew-core.git/
 
 说明
 ====
@@ -20,7 +20,7 @@ Homebrew 核心软件仓库
 ::
 
     cd "$(brew --repo)/Library/Taps/homebrew/homebrew-core"
-    git remote set-url origin https://mirrors.ustc.edu.cn/homebrew-core.git
+    git remote set-url origin https://mirrors.geekpie.org/homebrew-core.git
 
 重置为官方地址：
 

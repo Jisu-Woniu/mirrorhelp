@@ -5,7 +5,7 @@ Debian 源使用帮助
 地址
 ====
 
-* https://mirrors.ustc.edu.cn/debian/
+* https://mirrors.geekpie.org/debian/
 * http://ftp.cn.debian.org/debian/ (这个域名没有 HTTPS，请不要使用）
 
 说明
@@ -34,25 +34,25 @@ Debian Old Stable, Stable, Testing, Unstable(sid)
     操作前请做好相应备份
 
 一般情况下，将 :file:`/etc/apt/sources.list` 文件中 Debian 默认的源地址 ``http://httpredir.debian.org/``
-替换为 ``http://mirrors.ustc.edu.cn`` 即可。
+替换为 ``http://mirrors.geekpie.org`` 即可。
 
 可以使用如下命令：
 
 ::
 
-  sudo sed -i 's/httpredir.debian.org/mirrors.ustc.edu.cn/g' /etc/apt/sources.list
+  sudo sed -i 's/httpredir.debian.org/mirrors.geekpie.org/g' /etc/apt/sources.list
 
 当然也可以直接编辑 :file:`/etc/apt/sources.list` 文件（需要使用 sudo）。以下是 Debian Stable 参考配置内容：
 
 ::
 
-    deb http://mirrors.ustc.edu.cn/debian stable main contrib non-free
-    # deb-src http://mirrors.ustc.edu.cn/debian stable main contrib non-free
-    deb http://mirrors.ustc.edu.cn/debian stable-updates main contrib non-free
-    # deb-src http://mirrors.ustc.edu.cn/debian stable-updates main contrib non-free
+    deb http://mirrors.geekpie.org/debian stable main contrib non-free
+    # deb-src http://mirrors.geekpie.org/debian stable main contrib non-free
+    deb http://mirrors.geekpie.org/debian stable-updates main contrib non-free
+    # deb-src http://mirrors.geekpie.org/debian stable-updates main contrib non-free
 
-    # deb http://mirrors.ustc.edu.cn/debian stable-proposed-updates main contrib non-free
-    # deb-src http://mirrors.ustc.edu.cn/debian stable-proposed-updates main contrib non-free
+    # deb http://mirrors.geekpie.org/debian stable-proposed-updates main contrib non-free
+    # deb-src http://mirrors.geekpie.org/debian stable-proposed-updates main contrib non-free
 
 同时你也可能需要更改 Debian Security 源，请参考 :doc:`debian-security`
 
@@ -61,7 +61,7 @@ Debian Old Stable, Stable, Testing, Unstable(sid)
 .. tip::
     使用 HTTPS 可以有效避免国内运营商的缓存劫持，但需要事先安装 ``apt-transport-https``
 
-另外，也可以使用 snullp 大叔开发的 `配置生成器 <https://mirrors.ustc.edu.cn/repogen>`_ 。
+另外，也可以使用 snullp 大叔开发的 `配置生成器 <https://mirrors.geekpie.org/repogen>`_ 。
 
 相关链接
 ========

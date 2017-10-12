@@ -5,7 +5,7 @@ Hackage 源使用帮助
 地址
 ====
 
-https://mirrors.ustc.edu.cn/hackage/
+https://mirrors.geekpie.org/hackage/
 
 说明
 ====
@@ -21,8 +21,8 @@ stack使用说明
 
     package-indices:
       - name: USTC
-        download-prefix: https://mirrors.ustc.edu.cn/hackage/package/
-        http: https://mirrors.ustc.edu.cn/hackage/00-index.tar.gz
+        download-prefix: https://mirrors.geekpie.org/hackage/package/
+        http: https://mirrors.geekpie.org/hackage/00-index.tar.gz
 
 
 cabal使用说明
@@ -45,8 +45,8 @@ Cabal ≥ 1.24 (GHC 8.0)
 改为科大源:
 ::
 
-    repository mirrors.ustc.edu.cn
-      url: https://mirrors.ustc.edu.cn/hackage/
+    repository mirrors.geekpie.org
+      url: https://mirrors.geekpie.org/hackage/
 
 Cabal < 1.24
 ------------
@@ -58,7 +58,7 @@ Cabal < 1.24
 改为科大源:
 ::
 
-    remote-repo: mirrors.ustc.edu.cn:http://mirrors.ustc.edu.cn/hackage/
+    remote-repo: mirrors.geekpie.org:http://mirrors.geekpie.org/hackage/
 
 3. 执行 ``cabal update``
 

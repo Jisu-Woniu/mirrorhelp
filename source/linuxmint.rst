@@ -5,7 +5,7 @@ Linux Mint 源使用帮助
 地址
 ====
 
-https://mirrors.ustc.edu.cn/linuxmint/
+https://mirrors.geekpie.org/linuxmint/
 
 说明
 ====
@@ -27,34 +27,34 @@ i386，amd64
 ========
 
 .. warning::
-	操作前请做好相应备份。 
- 
+	操作前请做好相应备份。
+
 编辑 :file:`/etc/apt/sources.list.d/official-lackage-repositories.list` ：
 
 * 对于基于 Ubuntu 的原版，以 Linuxmint 18.2 为例：
 
 ::
 
-	deb https://mirrors.ustc.edu.cn/linuxmint/ sonya main upstream import backport 
-	deb https://mirrors.ustc.edu.cn/ubuntu/ xenial main restricted universe multiverse
-	deb https://mirrors.ustc.edu.cn/ubuntu/ xenial-updates main restricted universe multiverse
-	deb https://mirrors.ustc.edu.cn/ubuntu/ xenial-backports main restricted universe multiverse
-	deb https://mirrors.ustc.edu.cn/ubuntu/ xenial-security main restricted universe multiverse
+	deb https://mirrors.geekpie.org/linuxmint/ sonya main upstream import backport
+	deb https://mirrors.geekpie.org/ubuntu/ xenial main restricted universe multiverse
+	deb https://mirrors.geekpie.org/ubuntu/ xenial-updates main restricted universe multiverse
+	deb https://mirrors.geekpie.org/ubuntu/ xenial-backports main restricted universe multiverse
+	deb https://mirrors.geekpie.org/ubuntu/ xenial-security main restricted universe multiverse
 	deb http://archive.canonical.com/ubuntu/ xenial partner
-	
+
 * 对于基于 Debian 的 LMDE，以 LMDE 2 为例：
 
 ::
 
-	deb https://mirrors.ustc.edu.cn/linuxmint/ betsy main upstream import
-	deb https://mirrors.ustc.edu.cn/debian jessie main contrib non-free
-	deb https://mirrors.ustc.edu.cn/debian jessie-updates main contrib non-free
-	deb https://mirrors.ustc.edu.cn/debian jessie-backports main contrib non-free
-	deb https://mirrors.ustc.edu.cn/debian-security/ jessie/updates main non-free contrib
-	deb https://mirrors.ustc.edu.cn/deb-multimedia/ jessie main non-free
+	deb https://mirrors.geekpie.org/linuxmint/ betsy main upstream import
+	deb https://mirrors.geekpie.org/debian jessie main contrib non-free
+	deb https://mirrors.geekpie.org/debian jessie-updates main contrib non-free
+	deb https://mirrors.geekpie.org/debian jessie-backports main contrib non-free
+	deb https://mirrors.geekpie.org/debian-security/ jessie/updates main non-free contrib
+	deb https://mirrors.geekpie.org/deb-multimedia/ jessie main non-free
 
- 
-然后运行 ``sudo apt-get update`` 更新索引以生效。 
+
+然后运行 ``sudo apt-get update`` 更新索引以生效。
 
 .. tip::
 	完成后请不要再使用 mintsources（自带的图形化软件源设置工具）进行任何操作，因为在操作后，无论是否有按“确定”，mintsources 均会复写 :file:`/etc/apt/sources.list.d/official-lackage-repositories.list` 。

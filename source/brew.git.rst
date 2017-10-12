@@ -5,7 +5,7 @@ Homebrew 源使用帮助
 地址
 ====
 
-https://mirrors.ustc.edu.cn/brew.git/
+https://mirrors.geekpie.org/brew.git/
 
 说明
 ====
@@ -20,7 +20,7 @@ Homebrew 源代码仓库
 ::
 
     cd "$(brew --repo)"
-    git remote set-url origin https://mirrors.ustc.edu.cn/brew.git
+    git remote set-url origin https://mirrors.geekpie.org/brew.git
 
 重置为官方地址：
 

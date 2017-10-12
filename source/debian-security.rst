@@ -5,7 +5,7 @@ Debian Security 源使用帮助
 地址
 ====
 
-* https://mirrors.ustc.edu.cn/debian-security/
+* https://mirrors.geekpie.org/debian-security/
 * http://ftp.cn.debian.org/debian-security/ (这个域名没有 HTTPS，请不要使用）
 
 说明
@@ -33,27 +33,27 @@ Debian Old Old Stable, Old Stable, Stable
     操作前请做好相应备份
 
 一般情况下，将 :file:`/etc/apt/sources.list` 文件中 Debian 默认的源地址 ``http://security.debian.org/``
-替换为 ``http://mirrors.ustc.edu.cn/debian-security/`` 即可。
+替换为 ``http://mirrors.geekpie.org/debian-security/`` 即可。
 
 可以使用如下命令：
 
 ::
 
-  sudo sed -i 's|security.debian.org|mirrors.ustc.edu.cn/debian-security|g' /etc/apt/sources.list
+  sudo sed -i 's|security.debian.org|mirrors.geekpie.org/debian-security|g' /etc/apt/sources.list
 
 当然也可以直接编辑 :file:`/etc/apt/sources.list` 文件（需要使用 sudo）。以下是 Debian Stable 参考配置内容：
 
 ::
 
-    deb http://mirrors.ustc.edu.cn/debian-security/ jessie/updates main non-free contrib
-    # deb-src http://mirrors.ustc.edu.cn/debian-security/ jessie/updates main non-free contrib
+    deb http://mirrors.geekpie.org/debian-security/ jessie/updates main non-free contrib
+    # deb-src http://mirrors.geekpie.org/debian-security/ jessie/updates main non-free contrib
 
 更改完 :file:`sources.list` 文件后请运行 ``sudo apt-get update`` 更新索引以生效。
 
 .. tip::
     使用 HTTPS 可以有效避免国内运营商的缓存劫持，但需要事先安装 ``apt-transport-https``
 
-另外，也可以使用 snullp 大叔开发的 `配置生成器 <https://mirrors.ustc.edu.cn/repogen>`_ 。
+另外，也可以使用 snullp 大叔开发的 `配置生成器 <https://mirrors.geekpie.org/repogen>`_ 。
 
 相关链接
 ========

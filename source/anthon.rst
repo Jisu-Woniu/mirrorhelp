@@ -5,7 +5,7 @@ AOSC OS 源使用帮助
 地址
 ====
 
-https://mirrors.ustc.edu.cn/anthon
+https://mirrors.geekpie.org/anthon
 
 说明
 ====
@@ -48,8 +48,8 @@ AOSC OS 内置 ``apt-gen-list`` 工具来开关镜像源。要使用 USTC 源，
 
 ::
 
-  deb https://mirrors.ustc.edu.cn/anthon/os-${ARCH}/os3-dpkg/ /
-  deb https://mirrors.ustc.edu.cn/anthon/os-noarch/os3-dpkg/ /
+  deb https://mirrors.geekpie.org/anthon/os-${ARCH}/os3-dpkg/ /
+  deb https://mirrors.geekpie.org/anthon/os-noarch/os3-dpkg/ /
 
 其中 ``${ARCH}`` 可以是：
 

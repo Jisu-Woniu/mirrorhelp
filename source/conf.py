@@ -29,9 +29,9 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = 'USTC Mirror Help'
-copyright = '%s, LUG@USTC' % datetime.datetime.now().year
-author = 'LUG@USTC'
+project = 'GeekPie Mirror Help'
+copyright = '%s, LUG@USTC, GeekPie@ShanghaiTech.' % datetime.datetime.now().year
+author = 'GeekPie@ShanghaiTech.'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -103,7 +103,7 @@ todo_link_only = True
 html_copy_source = False
 html_context = {
     'display_github': True,
-    'github_user': 'ustclug',
+    'github_user': 'ShanghaitechGeekPie',
     'github_repo': 'mirrorhelp',
     'github_version': 'master/source/'
 }

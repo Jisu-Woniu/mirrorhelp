@@ -5,7 +5,7 @@ EPEL 源使用帮助
 地址
 ==============================
 
-https://mirrors.ustc.edu.cn/epel/
+https://mirrors.geekpie.org/epel/
 
 说明
 ==============================
@@ -32,7 +32,7 @@ EPEL (Extra Packages for Enterprise Linux) 是由 Fedora Special Interest Group 
   sudo yum install -y epel-release
   sudo sed -e 's!^mirrorlist=!#mirrorlist=!g' \
            -e 's!^#baseurl=!baseurl=!g' \
-           -e 's!//download\.fedoraproject\.org/pub!//mirrors.ustc.edu.cn!g' \
+           -e 's!//download\.fedoraproject\.org/pub!//mirrors.geekpie.org!g' \
            -e 's!http://mirrors\.ustc!https://mirrors.ustc!g' \
            -i /etc/yum.repos.d/epel.repo /etc/yum.repos.d/epel-testing.repo
 
