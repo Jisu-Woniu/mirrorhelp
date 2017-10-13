@@ -9,35 +9,42 @@ Geekpie Association @ShanghaiTech University Mirror Help
 .. toctree::
    :maxdepth: 1
 
-   alpine
+   anaconda #
+..   alpine
    anthon
    archlinux
    archlinuxcn
-   blackarch
+..   blackarch
+   caffe #
    centos
    epel
-   chakra
+..   chakra
    debian
    debian-security
    debian-cd
-   debiancn
-   deb-multimedia
+..   debiancn
+..   deb-multimedia
+   deepin #
    fedora
-   rpmfusion
-   gentoo
-   gentoo-portage
-   kali
+   homebrew-bottles #
+..   rpmfusion
+..   gentoo
+..   gentoo-portage
+..   kali
+   kernel #
    linuxmint
-   mageia
-   manjaro
-   opensuse
-   trisquel
+   neoterm #
+..   mageia
+..   manjaro
+..   opensuse
+..   trisquel
+   tensorflow #
    ubuntu
    ubuntu-ports
-   ubuntu-old-releases
+..   ubuntu-old-releases
    ubuntu-releases
-   ubuntu-cdimage
-   ubuntu-cloud-images
+..   ubuntu-cdimage
+..   ubuntu-cloud-images
 
 语言镜像
 --------
@@ -45,11 +52,11 @@ Geekpie Association @ShanghaiTech University Mirror Help
 .. toctree::
    :maxdepth: 1
 
-   hackage
+..   hackage
    pypi
-   rubygems
-   rust-crates
-   rust-static
+..   rubygems
+..   rust-crates
+..   rust-static
 
 软件镜像
 --------
