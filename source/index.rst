@@ -1,7 +1,9 @@
 Geekpie Association @ShanghaiTech University Mirror Help
 =========================================================
 
-镜像的地址是 https://mirrors.geekpie.org , 请不要使用针对校园内网和外网的重定向地址 https://mirrors-wan.geekpie.org 和 https://mirrors-wan.geekpie.org。否则在您的主机在上科大校园内网和外网切换时，可能会遇到无法访问镜像的错误。
+.. warning::
+ 上科大校内用户请注意：
+ GeekPie 镜像的地址是 https://mirrors.geekpie.org , 请不要使用由于技术问题而设立的针对校园内网和外网的重定向地址 https://mirrors-wan.geekpie.org 和 https://mirrors-wan.geekpie.org。否则在您的主机在上科大校园内网和外网切换时，可能会遇到无法访问镜像的错误。
 
 发行版镜像
 ----------
@@ -9,42 +11,26 @@ Geekpie Association @ShanghaiTech University Mirror Help
 .. toctree::
    :maxdepth: 1
 
-   anaconda #
-..   alpine
+   anaconda
    anthon
    archlinux
    archlinuxcn
-..   blackarch
-   caffe #
+   caffe
    centos
    epel
-..   chakra
    debian
    debian-security
    debian-cd
-..   debiancn
-..   deb-multimedia
-   deepin #
+   deepin
    fedora
-   homebrew-bottles #
-..   rpmfusion
-..   gentoo
-..   gentoo-portage
-..   kali
-   kernel #
+   homebrew-bottles
+   kernel
    linuxmint
-   neoterm #
-..   mageia
-..   manjaro
-..   opensuse
-..   trisquel
-   tensorflow #
+   neoterm
+   tensorflow
    ubuntu
    ubuntu-ports
-..   ubuntu-old-releases
    ubuntu-releases
-..   ubuntu-cdimage
-..   ubuntu-cloud-images
 
 语言镜像
 --------
@@ -52,11 +38,8 @@ Geekpie Association @ShanghaiTech University Mirror Help
 .. toctree::
    :maxdepth: 1
 
-..   hackage
    pypi
-..   rubygems
-..   rust-crates
-..   rust-static
+   
 
 软件镜像
 --------
@@ -64,15 +47,7 @@ Geekpie Association @ShanghaiTech University Mirror Help
 .. toctree::
    :maxdepth: 1
 
-
-   anaconda
-   brew.git
-   docker-ce
-   dockerhub
    homebrew-bottles
-   homebrew-core.git
-   homebrew-cask.git
-   mariadb
 
 其他
 ----

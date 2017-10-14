@@ -1,3 +1,3 @@
-- 增加 ['anaconda', 'caffe', 'deepin', 'homebrew-bottles', 'kernel', 'tensorflow']
+- 增加 ['caffe', 'deepin', 'kernel', 'tensorflow']
 - 删除不存在仓库的链接
 - 贡献者名单
