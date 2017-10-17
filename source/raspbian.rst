@@ -17,34 +17,38 @@ Raspbian 是树莓派的开发与维护机构 The Raspbeery Pi Foundation “树
 - 树莓派用户倾向于探索、尝试最新的软件。这与 Debian 软件源的策略完全不同。
 
 系统架构与版本
-============
+=======================
 架构：
+
 - armhf
+
 版本：
+
 - wheezy
 - jessie
+
 注：Raspbian 系统由于从诞生开始就基于（为了armhf，也必须基于）当时还是 testing 版本的 7.0/wheezy，所以 Raspbian 不倾向于使用 stable/testing 表示版本。
 
 使用说明
-=======
+=======================
 .. warning::
  以下说明以 Raspbian jessie 为基准，其他版本的用户请自行确认自己的发行版代号。
 
-基本与 Debian 一致。使用管理员权限（经由sudo），编辑 /etc/apt/sources.list 文件。参考命令行为：
-::
- pi@raspberrypi ~ $ sudo nano /etc/apt/sources.list
-删除原文件所有内容，用以下内容取代：
+基本与 Debian 一致。使用管理员权限（经由sudo），编辑 /etc/apt/sources.list 文件。参考命令行为：::
 
-::
-deb http://mirrors.geekpie.org/raspbian/raspbian/ jessie main non-free contrib
-deb-src http://mirrors.geekpie.org/raspbian/raspbian/ jessie main non-free contrib
+ pi@raspberrypi ~ $ sudo nano /etc/apt/sources.list
+
+删除原文件所有内容，用以下内容取代：::
+
+ deb http://mirrors.geekpie.org/raspbian/raspbian/ jessie main non-free contrib
+ deb-src http://mirrors.geekpie.org/raspbian/raspbian/ jessie main non-free contrib
 
 注意：网址末尾的raspbian重复两次是必须的。因为Raspbian的仓库中除了APT软件源还包含其他代码。APT软件源不在仓库的根目录，而在raspbian/子目录下。
 
 编辑镜像站后，请使用sudo apt-get update命令，更新软件源列表，同时检查您的编辑是否正确。
 
 相关链接
-=======
+===================
 Raspbian 链接
 
 - Raspbian主页: http://www.raspbian.org/
@@ -52,6 +56,7 @@ Raspbian 链接
 - Bug Tracker: http://www.raspbian.org/RaspbianBugs
 - 镜像列表: http://www.raspbian.org/RaspbianMirrors
 - Debian首页: http://www.debian.org/
+
 树莓派链接
 
 - 树莓派基金会主页: http://www.raspberrypi.org/

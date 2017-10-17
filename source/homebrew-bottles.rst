@@ -42,11 +42,6 @@ Homebrew 预编译二进制软件包
     echo 'export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.geekpie.org/homebrew-bottles' >> ~/.zshrc
     source ~/.zshrc
 
-相关镜像
-========
-- :doc:`brew.git`
-- :doc:`homebrew-core.git`
-
 相关链接
 ========
 

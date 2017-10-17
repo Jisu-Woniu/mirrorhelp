@@ -58,10 +58,6 @@ arm64, armhf, PowerPC, ppc64el, s390x
 .. tip::
     使用 HTTPS 可以有效避免国内运营商的缓存劫持，但需要事先安装 ``apt-transport-https``
 
-镜像下载
---------
-
-相关架构的 ISO 下载请参考 :doc:`ubuntu-cdimage`
 
 相关链接
 ========

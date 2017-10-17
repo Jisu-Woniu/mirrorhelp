@@ -1,4 +1,4 @@
-Geekpie Association @ShanghaiTech University Mirror Help
+Geekpie @ShanghaiTech Mirror Help
 =========================================================
 
 .. warning::
@@ -15,7 +15,6 @@ Geekpie Association @ShanghaiTech University Mirror Help
    anthon
    archlinux
    archlinuxcn
-   caffe
    centos
    epel
    debian
@@ -26,20 +25,11 @@ Geekpie Association @ShanghaiTech University Mirror Help
    homebrew-bottles
    kernel
    linuxmint
-   neoterm
-   tensorflow
+   raspbian
    ubuntu
    ubuntu-ports
    ubuntu-releases
 
-语言镜像
---------
-
-.. toctree::
-   :maxdepth: 1
-
-   pypi
-   
 
 软件镜像
 --------
@@ -47,14 +37,19 @@ Geekpie Association @ShanghaiTech University Mirror Help
 .. toctree::
    :maxdepth: 1
 
+   caffe
+   tensorflow
+   neoterm
+   ros
    homebrew-bottles
 
-其他
-----
+语言镜像
+--------
 
 .. toctree::
+    :maxdepth: 1
 
-   todo
+    pypi
 
 贡献者
 ------

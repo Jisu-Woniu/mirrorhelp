@@ -8,7 +8,7 @@ Anaconda
 https://mirrors.geekpie.org/anaconda/
 
 说明
-====
+=====
 
 Anaconda 仓库镜像
 
