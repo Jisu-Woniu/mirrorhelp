@@ -5,7 +5,7 @@
 
 * 来自 GeekPie @ShanghaiTech 的维护者：
 
-  * 此文档主要由 GeekPie 镜像维护组 EricDiao 维护。
+  * 此文档主要由 GeekPie 维护。
 
 * 来自 USTC 的文档维护者：
 

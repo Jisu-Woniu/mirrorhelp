@@ -36,15 +36,7 @@ AOSC OS 支持的所有架构，包括：
 使用说明
 ========
 
-AOSC OS 内置 ``apt-gen-list`` 工具来开关镜像源。要使用 USTC 源，执行：
-
-::
-
-  sudo apt-gen-list -e 10-ustc
-
-注意目前这将关闭其它镜像源。详细用法请执行 ``apt-gen-list -h`` 获取。
-
-当然，也可以直接编辑 :file:`/etc/apt/sources.list` 文件。对于任一架构 ``${ARCH}``，需要在 :file:`/etc/apt/sources.list` 中同时写入：
+您可以直接编辑 :file:`/etc/apt/sources.list` 文件。对于任一架构 ``${ARCH}``，需要在 :file:`/etc/apt/sources.list` 中同时写入：
 
 ::
 

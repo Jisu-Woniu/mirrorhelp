@@ -6,7 +6,6 @@ Debian Security
 ====
 
 * https://mirrors.geekpie.org/debian-security/
-* http://ftp.cn.debian.org/debian-security/ (这个域名没有 HTTPS，请不要使用）
 
 说明
 ====
