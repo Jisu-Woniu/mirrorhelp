@@ -1,11 +1,12 @@
 
-FROM alpine:latest
+FROM daocloud.io/nginx
 
 MAINTAINER ericdiao @ Geek Pie Association
+
 RUN mkdir ／mirrorshelp
 COPY . /mirrorshelp
 WORKDIR /mirrorshelp
-RUN apk add --no-cache python make nginx py-pip git && pip install -r requirements.txt
+RUN apt-get update && apt-get install python make nginx python-pip git && pip install -r requirements.txt
 RUN make html
 EXPOSE 3405
-RUN nginx -c /mirrorshelp/nginx.conf
+COPY nginx.conf /etc/nginx/sites-enabled/mirrorhelp.conf
