@@ -22,4 +22,4 @@
 
 * 来自清华大学的文档维护者：
 
-  部分文档取自清华大学 Tuna：https://mirrors.tsinghua.edu.cn/ ，此部分使用 CC BY-NC 3.0 CN 协议授权。
+  部分文档取自清华大学 Tuna：https://mirrors.tuna.tsinghua.edu.cn/ ，此部分使用 CC BY-NC 3.0 CN 协议授权。
