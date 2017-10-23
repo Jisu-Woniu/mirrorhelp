@@ -5,7 +5,7 @@ Robtics Opreating System
 地址
 ======
 
-https:///mirrors.geekpie.org/ros/
+https://mirrors.geekpie.org/ros/
 
 使用方法
 =============
