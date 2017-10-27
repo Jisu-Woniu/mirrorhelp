@@ -7,6 +7,10 @@
 
   * 此文档主要由 GeekPie 维护。
 
+    * zxt
+    * EricDiao
+    * eastpigger
+
 * 来自 USTC 的文档维护者：
 
   此部分使用 CC BY-NC-SA 4.0 协议授权。
