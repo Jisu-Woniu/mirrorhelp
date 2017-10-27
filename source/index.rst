@@ -36,7 +36,6 @@ Geekpie @ShanghaiTech Mirror Help
    anaconda
    caffe
    tensorflow
-   neoterm
    ros
    homebrew-bottles
 
