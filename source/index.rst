@@ -12,11 +12,11 @@ Geekpie @ ShanghaiTech Mirror Help
    archlinux
    archlinuxcn
    centos
-   epel
    debian
    debian-security
    debian-cd
    deepin
+   epel
    fedora
    homebrew-bottles
    kernel
@@ -35,9 +35,10 @@ Geekpie @ ShanghaiTech Mirror Help
 
    anaconda
    caffe
+   homebrew-bottles
    tensorflow
    ros
-   homebrew-bottles
+
 
 语言镜像
 --------
