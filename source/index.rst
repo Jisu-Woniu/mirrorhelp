@@ -16,6 +16,7 @@ Geekpie @ ShanghaiTech Mirror Help
    debian-security
    debian-cd
    deepin
+   deepin-cd
    epel
    fedora
    homebrew-bottles
