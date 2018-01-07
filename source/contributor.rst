@@ -3,13 +3,15 @@
 ==============
 .. TODO
 
-* 来自 GeekPie @ShanghaiTech 的维护者：
+* 来自 GeekPie @ ShanghaiTech 的维护者：
 
   * 此文档主要由 GeekPie 维护。
 
-    * zxt
+    以字典序排列
+
+    * eastpiger
     * EricDiao
-    * eastpigger
+    * zxt
 
 * 来自 USTC 的文档维护者：
 

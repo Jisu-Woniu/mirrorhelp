@@ -41,7 +41,7 @@ PyPI(pip) 软件源.
 同步方式
 ========
 
-使用 bandersnatch，每4小时从 pypi.python.org 官方同步。
+使用 bandersnatch，每20分钟从 pypi.python.org 官方同步。
 
 
 

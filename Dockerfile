@@ -5,7 +5,7 @@ MAINTAINER ericdiao @ Geek Pie Association
 EXPOSE 80
 
 RUN mkdir /logs
-RUN mkdir ／mirrorshelp
+RUN mkdir /mirrorshelp
 COPY . /mirrorshelp
 
 COPY nginx.conf /etc/nginx/nginx.conf

@@ -1,4 +1,4 @@
-Geekpie @ShanghaiTech Mirror Help
+Geekpie @ ShanghaiTech Mirror Help
 =========================================================
 
 发行版镜像
