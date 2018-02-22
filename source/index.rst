@@ -11,6 +11,7 @@ Geekpie @ ShanghaiTech Mirror Help
    anthon
    archlinux
    archlinuxcn
+   archlinuxarm
    centos
    debian
    debian-security
@@ -36,6 +37,7 @@ Geekpie @ ShanghaiTech Mirror Help
 
    anaconda
    caffe
+   CTAN
    homebrew-bottles
    tensorflow
    ros
