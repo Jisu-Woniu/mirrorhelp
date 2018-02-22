@@ -1,5 +1,5 @@
 ========================
-Arch Linux CN
+Arch Linux ARM
 ========================
 
 地址
@@ -29,5 +29,5 @@ Arch Linux ARM 是一个针对 ARM 电脑（如树莓派）的 Linux 发行版�
 相关链接
 ===================
 
-:官网：https://archlinuxarm.org/
-:官方镜像列表：https://archlinuxarm.org/about/mirrors
+:主页: https://www.archlinuxarm.org
+:镜像加速源介绍: https://www.archlinuxarm.org/about/mirrors/
