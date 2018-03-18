@@ -40,8 +40,8 @@ Raspbian 是树莓派的开发与维护机构 The Raspbeery Pi Foundation “树
 
 删除原文件所有内容，用以下内容取代：::
 
- deb http://mirrors.geekpie.org/raspbian/raspbian/ jessie main non-free contrib
- deb-src http://mirrors.geekpie.org/raspbian/raspbian/ jessie main non-free contrib
+ deb http://mirrors.geekpie.club/raspbian/raspbian/ jessie main non-free contrib
+ deb-src http://mirrors.geekpie.club/raspbian/raspbian/ jessie main non-free contrib
 
 注意：网址末尾的raspbian重复两次是必须的。因为Raspbian的仓库中除了APT软件源还包含其他代码。APT软件源不在仓库的根目录，而在raspbian/子目录下。
 

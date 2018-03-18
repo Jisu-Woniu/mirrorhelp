@@ -3,7 +3,7 @@ Linux Kernel
 =============================================
 地址
 ================
-https://mirrors.geekpie.org/kernel
+https://mirrors.geekpie.club/kernel
 
 使用方法
 =================

@@ -5,7 +5,7 @@ Robtics Opreating System
 地址
 ======
 
-https://mirrors.geekpie.org/ros/
+https://mirrors.geekpie.club/ros/
 
 使用方法
 =============
@@ -16,7 +16,7 @@ https://mirrors.geekpie.org/ros/
 
 在终端中运行::
 
-  sudo sh -c 'echo "deb http://mirrors.geekpie.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
+  sudo sh -c 'echo "deb http://mirrors.geekpie.club/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
 
 配置你的电脑以接受来自 GeekPie ROS 镜像的软件。
 

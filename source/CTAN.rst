@@ -7,14 +7,14 @@ CTAN (The Comprehensive TeX Archive Network) 镜像源可以使用 ``TeX Live`` 
 在命令行中执行
 ::
 
-    tlmgr option repository http://mirrors.geekpie.org/CTAN/systems/texlive/tlnet
+    tlmgr option repository http://mirrors.geekpie.club/CTAN/systems/texlive/tlnet
 
 即可永久更改镜像源。
 
 如果只需要临时切换，可以用如下命令：
 ::
 
-    tlmgr update --all --repository http://mirrors.geekpie.org/CTAN/systems/texlive/tlnet
+    tlmgr update --all --repository http://mirrors.geekpie.club/CTAN/systems/texlive/tlnet
 
 其中的 ``update --all`` 指令可根据需要修改。
 

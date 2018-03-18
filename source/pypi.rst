@@ -5,7 +5,7 @@ PyPI
 地址
 ====
 
-https://mirrors.geekpie.org/pypi/
+https://mirrors.geekpie.club/pypi/
 
 说明
 ====
@@ -20,7 +20,7 @@ PyPI(pip) 软件源.
 
 ::
 
-    index-url = https://mirrors.geekpie.org/pypi/web/simple
+    index-url = https://mirrors.geekpie.club/pypi/web/simple
 
 如果运行 pip 时, 提示如下错误:
 
@@ -35,7 +35,7 @@ PyPI(pip) 软件源.
 ::
 
     [global]
-    index-url = https://mirrors.geekpie.org/pypi/web/simple
+    index-url = https://mirrors.geekpie.club/pypi/web/simple
     format = columns
 
 同步方式

@@ -5,7 +5,7 @@ Arch Linux
 地址
 ====
 
-https://mirrors.geekpie.org/archlinux/
+https://mirrors.geekpie.club/archlinux/
 
 说明
 ====
@@ -24,7 +24,7 @@ i686, x86_64
 
 ::
 
-    Server = https://mirrors.geekpie.org/archlinux/$repo/os/$arch
+    Server = https://mirrors.geekpie.club/archlinux/$repo/os/$arch
 
 国内用户，推荐另外使用 Arch Linux CN 的源，请参考 :doc:`archlinuxcn`
 

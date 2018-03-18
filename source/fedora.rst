@@ -5,7 +5,7 @@ Fedora
 地址
 ====
 
-https://mirrors.geekpie.org/fedora/
+https://mirrors.geekpie.club/fedora/
 
 说明
 ====
@@ -32,7 +32,7 @@ x86_64, i386
   [fedora]
   name=Fedora $releasever - $basearch - ustc
   failovermethod=priority
-  baseurl=https://mirrors.geekpie.org/fedora/releases/$releasever/Everything/$basearch/os/
+  baseurl=https://mirrors.geekpie.club/fedora/releases/$releasever/Everything/$basearch/os/
   #mirrorlist=https://mirrors.fedoraproject.org/metalink?repo=fedora-$releasever&arch=$basearch
   enabled=1
   metadata_expire=7d
@@ -42,7 +42,7 @@ x86_64, i386
   [fedora-debuginfo]
   name=Fedora $releasever - $basearch - Debug - ustc
   failovermethod=priority
-  baseurl=https://mirrors.geekpie.org/fedora/releases/$releasever/Everything/$basearch/debug/
+  baseurl=https://mirrors.geekpie.club/fedora/releases/$releasever/Everything/$basearch/debug/
   #mirrorlist=https://mirrors.fedoraproject.org/metalink?repo=fedora-debug-$releasever&arch=$basearch
   enabled=0
   metadata_expire=7d
@@ -52,7 +52,7 @@ x86_64, i386
   [fedora-source]
   name=Fedora $releasever - Source - ustc
   failovermethod=priority
-  baseurl=https://mirrors.geekpie.org/fedora/releases/$releasever/Everything/source/SRPMS/
+  baseurl=https://mirrors.geekpie.club/fedora/releases/$releasever/Everything/source/SRPMS/
   #mirrorlist=https://mirrors.fedoraproject.org/metalink?repo=fedora-source-$releasever&arch=$basearch
   enabled=0
   metadata_expire=7d
@@ -66,7 +66,7 @@ x86_64, i386
   [updates]
   name=Fedora $releasever - $basearch - Updates - ustc
   failovermethod=priority
-  baseurl=https://mirrors.geekpie.org/fedora/updates/$releasever/$basearch/
+  baseurl=https://mirrors.geekpie.club/fedora/updates/$releasever/$basearch/
   #mirrorlist=https://mirrors.fedoraproject.org/metalink?repo=updates-released-f$releasever&arch=$basearch
   enabled=1
   gpgcheck=1
@@ -75,7 +75,7 @@ x86_64, i386
   [updates-debuginfo]
   name=Fedora $releasever - $basearch - Updates - Debug -ustc
   failovermethod=priority
-  baseurl=https://mirrors.geekpie.org/fedora/updates/$releasever/$basearch/debug/
+  baseurl=https://mirrors.geekpie.club/fedora/updates/$releasever/$basearch/debug/
   #mirrorlist=https://mirrors.fedoraproject.org/metalink?repo=updates-released-debug-f$releasever&arch=$basearch
   enabled=0
   gpgcheck=1
@@ -84,7 +84,7 @@ x86_64, i386
   [updates-source]
   name=Fedora $releasever - Updates Source - ustc
   failovermethod=priority
-  baseurl=https://mirrors.geekpie.org/fedora/updates/$releasever/SRPMS/
+  baseurl=https://mirrors.geekpie.club/fedora/updates/$releasever/SRPMS/
   #mirrorlist=https://mirrors.fedoraproject.org/metalink?repo=updates-released-source-f$releasever&arch=$basearch
   enabled=0
   gpgcheck=1

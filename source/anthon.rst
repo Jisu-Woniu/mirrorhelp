@@ -5,7 +5,7 @@ AOSC OS
 地址
 =========
 
-https://mirrors.geekpie.org/anthon
+https://mirrors.geekpie.club/anthon
 
 说明
 ============
@@ -40,8 +40,8 @@ AOSC OS 支持的所有架构，包括：
 
 ::
 
-  deb https://mirrors.geekpie.org/anthon/os-${ARCH}/os3-dpkg/ /
-  deb https://mirrors.geekpie.org/anthon/os-noarch/os3-dpkg/ /
+  deb https://mirrors.geekpie.club/anthon/os-${ARCH}/os3-dpkg/ /
+  deb https://mirrors.geekpie.club/anthon/os-noarch/os3-dpkg/ /
 
 其中 ``${ARCH}`` 可以是：
 

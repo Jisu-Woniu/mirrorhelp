@@ -5,7 +5,7 @@ deepin
 地址
 ================
 
-https://mirrors.geekpie.org/deepin
+https://mirrors.geekpie.club/deepin
 
 使用帮助
 ==================
@@ -31,8 +31,8 @@ https://mirrors.geekpie.org/deepin
 两行更改为：
 ::
 
- deb [by-hash=force] http://mirrors.geekpie.org/deepin unstable main contrib non-free
- #deb-src http://mirrors.geekpie.org/deepin unstable main contrib non-free
+ deb [by-hash=force] http://mirrors.geekpie.club/deepin unstable main contrib non-free
+ #deb-src http://mirrors.geekpie.club/deepin unstable main contrib non-free
 
 即可。
 

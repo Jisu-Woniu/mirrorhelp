@@ -5,7 +5,7 @@ Debian
 地址
 ====
 
-* https://mirrors.geekpie.org/debian/
+* https://mirrors.geekpie.club/debian/
 
 说明
 ====
@@ -33,25 +33,25 @@ Debian Old Stable, Stable, Testing, Unstable(sid)
     操作前请做好相应备份
 
 一般情况下，将 :file:`/etc/apt/sources.list` 文件中 Debian 默认的源地址 ``http://httpredir.debian.org/``
-替换为 ``http://mirrors.geekpie.org`` 即可。
+替换为 ``http://mirrors.geekpie.club`` 即可。
 
 可以使用如下命令：
 
 ::
 
-  sudo sed -i 's/httpredir.debian.org/mirrors.geekpie.org/g' /etc/apt/sources.list
+  sudo sed -i 's/httpredir.debian.org/mirrors.geekpie.club/g' /etc/apt/sources.list
 
 当然也可以直接编辑 :file:`/etc/apt/sources.list` 文件（需要使用 sudo）。以下是 Debian Stable 参考配置内容：
 
 ::
 
-    deb http://mirrors.geekpie.org/debian stable main contrib non-free
-    # deb-src http://mirrors.geekpie.org/debian stable main contrib non-free
-    deb http://mirrors.geekpie.org/debian stable-updates main contrib non-free
-    # deb-src http://mirrors.geekpie.org/debian stable-updates main contrib non-free
+    deb http://mirrors.geekpie.club/debian stable main contrib non-free
+    # deb-src http://mirrors.geekpie.club/debian stable main contrib non-free
+    deb http://mirrors.geekpie.club/debian stable-updates main contrib non-free
+    # deb-src http://mirrors.geekpie.club/debian stable-updates main contrib non-free
 
-    # deb http://mirrors.geekpie.org/debian stable-proposed-updates main contrib non-free
-    # deb-src http://mirrors.geekpie.org/debian stable-proposed-updates main contrib non-free
+    # deb http://mirrors.geekpie.club/debian stable-proposed-updates main contrib non-free
+    # deb-src http://mirrors.geekpie.club/debian stable-proposed-updates main contrib non-free
 
 同时你也可能需要更改 Debian Security 源，请参考 :doc:`debian-security`
 

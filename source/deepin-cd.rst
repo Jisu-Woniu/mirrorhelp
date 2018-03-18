@@ -5,7 +5,7 @@ Deepin CD
 地址
 ====
 
-https://mirrors.geekpie.org/deepin-cd/
+https://mirrors.geekpie.club/deepin-cd/
 
 说明
 ====

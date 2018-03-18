@@ -5,7 +5,7 @@ Linux Mint
 地址
 ====
 
-https://mirrors.geekpie.org/linuxmint/
+https://mirrors.geekpie.club/linuxmint/
 
 说明
 ====
@@ -35,23 +35,23 @@ i386，amd64
 
 ::
 
-	deb https://mirrors.geekpie.org/linuxmint/ sonya main upstream import backport
-	deb https://mirrors.geekpie.org/ubuntu/ xenial main restricted universe multiverse
-	deb https://mirrors.geekpie.org/ubuntu/ xenial-updates main restricted universe multiverse
-	deb https://mirrors.geekpie.org/ubuntu/ xenial-backports main restricted universe multiverse
-	deb https://mirrors.geekpie.org/ubuntu/ xenial-security main restricted universe multiverse
+	deb https://mirrors.geekpie.club/linuxmint/ sonya main upstream import backport
+	deb https://mirrors.geekpie.club/ubuntu/ xenial main restricted universe multiverse
+	deb https://mirrors.geekpie.club/ubuntu/ xenial-updates main restricted universe multiverse
+	deb https://mirrors.geekpie.club/ubuntu/ xenial-backports main restricted universe multiverse
+	deb https://mirrors.geekpie.club/ubuntu/ xenial-security main restricted universe multiverse
 	deb http://archive.canonical.com/ubuntu/ xenial partner
 
 * 对于基于 Debian 的 LMDE，以 LMDE 2 为例：
 
 ::
 
-	deb https://mirrors.geekpie.org/linuxmint/ betsy main upstream import
-	deb https://mirrors.geekpie.org/debian jessie main contrib non-free
-	deb https://mirrors.geekpie.org/debian jessie-updates main contrib non-free
-	deb https://mirrors.geekpie.org/debian jessie-backports main contrib non-free
-	deb https://mirrors.geekpie.org/debian-security/ jessie/updates main non-free contrib
-	deb https://mirrors.geekpie.org/deb-multimedia/ jessie main non-free
+	deb https://mirrors.geekpie.club/linuxmint/ betsy main upstream import
+	deb https://mirrors.geekpie.club/debian jessie main contrib non-free
+	deb https://mirrors.geekpie.club/debian jessie-updates main contrib non-free
+	deb https://mirrors.geekpie.club/debian jessie-backports main contrib non-free
+	deb https://mirrors.geekpie.club/debian-security/ jessie/updates main non-free contrib
+	deb https://mirrors.geekpie.club/deb-multimedia/ jessie main non-free
 
 
 然后运行 ``sudo apt-get update`` 更新索引以生效。

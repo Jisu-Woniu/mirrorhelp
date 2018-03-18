@@ -5,7 +5,7 @@ caffe
 地址
 ====
 
-https://mirrors.geekpie.org/caffe
+https://mirrors.geekpie.club/caffe
 
 使用帮助
 ========

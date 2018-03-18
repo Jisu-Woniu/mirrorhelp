@@ -5,7 +5,7 @@ Debian Security
 地址
 ====
 
-* https://mirrors.geekpie.org/debian-security/
+* https://mirrors.geekpie.club/debian-security/
 
 说明
 ====
@@ -32,20 +32,20 @@ Debian Old Old Stable, Old Stable, Stable
     操作前请做好相应备份
 
 一般情况下，将 :file:`/etc/apt/sources.list` 文件中 Debian 默认的源地址 ``http://security.debian.org/``
-替换为 ``http://mirrors.geekpie.org/debian-security/`` 即可。
+替换为 ``http://mirrors.geekpie.club/debian-security/`` 即可。
 
 可以使用如下命令：
 
 ::
 
-  sudo sed -i 's|security.debian.org|mirrors.geekpie.org/debian-security|g' /etc/apt/sources.list
+  sudo sed -i 's|security.debian.org|mirrors.geekpie.club/debian-security|g' /etc/apt/sources.list
 
 当然也可以直接编辑 :file:`/etc/apt/sources.list` 文件（需要使用 sudo）。以下是 Debian Stable 参考配置内容：
 
 ::
 
-    deb http://mirrors.geekpie.org/debian-security/ jessie/updates main non-free contrib
-    # deb-src http://mirrors.geekpie.org/debian-security/ jessie/updates main non-free contrib
+    deb http://mirrors.geekpie.club/debian-security/ jessie/updates main non-free contrib
+    # deb-src http://mirrors.geekpie.club/debian-security/ jessie/updates main non-free contrib
 
 更改完 :file:`sources.list` 文件后请运行 ``sudo apt-get update`` 更新索引以生效。
 

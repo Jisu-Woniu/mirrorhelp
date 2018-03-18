@@ -5,7 +5,7 @@ Ubuntu
 地址
 ====
 
-https://mirrors.geekpie.org/ubuntu/
+https://mirrors.geekpie.club/ubuntu/
 
 说明
 ====
@@ -47,34 +47,34 @@ AMD64 (x86_64), Intel x86
     操作前请做好相应备份
 
 一般情况下，将 :file:`/etc/apt/sources.list` 文件中 Ubuntu 默认的源地址 ``http://archive.ubuntu.com/``
-替换为 ``http://mirrors.geekpie.org`` 即可。
+替换为 ``http://mirrors.geekpie.club`` 即可。
 
 可以使用如下命令：
 
 ::
 
-  sudo sed -i 's/archive.ubuntu.com/mirrors.geekpie.org/g' /etc/apt/sources.list
+  sudo sed -i 's/archive.ubuntu.com/mirrors.geekpie.club/g' /etc/apt/sources.list
 
 .. tip::
-  如果你在安装时选择的语言不是英语，默认的源地址通常不是 ``http://archive.ubuntu.com/`` ，而是 ``http://<country-code>.archive.ubuntu.com/ubuntu/`` 例如： ``http://cn.archive.ubuntu.com/ubuntu/`` ，此时秩序将上面的命令进行相应的替换即可，如： ``sudo sed -i 's/cn.archive.ubuntu.com/mirrors.geekpie.org/g' /etc/apt/sources.list`` 。
+  如果你在安装时选择的语言不是英语，默认的源地址通常不是 ``http://archive.ubuntu.com/`` ，而是 ``http://<country-code>.archive.ubuntu.com/ubuntu/`` 例如： ``http://cn.archive.ubuntu.com/ubuntu/`` ，此时秩序将上面的命令进行相应的替换即可，如： ``sudo sed -i 's/cn.archive.ubuntu.com/mirrors.geekpie.club/g' /etc/apt/sources.list`` 。
 
 当然也可以直接编辑 :file:`/etc/apt/sources.list` 文件（需要使用 sudo）。以下是 Ubuntu 16.04 参考配置内容：
 
 ::
 
     # 默认注释了源码仓库，如有需要可自行取消注释
-    deb https://mirrors.geekpie.org/ubuntu/ xenial main restricted universe multiverse
-    # deb-src https://mirrors.geekpie.org/ubuntu/ xenial main restricted universe multiverse
-    deb https://mirrors.geekpie.org/ubuntu/ xenial-updates main restricted universe multiverse
-    # deb-src https://mirrors.geekpie.org/ubuntu/ xenial-updates main restricted universe multiverse
-    deb https://mirrors.geekpie.org/ubuntu/ xenial-backports main restricted universe multiverse
-    # deb-src https://mirrors.geekpie.org/ubuntu/ xenial-backports main restricted universe multiverse
-    deb https://mirrors.geekpie.org/ubuntu/ xenial-security main restricted universe multiverse
-    # deb-src https://mirrors.geekpie.org/ubuntu/ xenial-security main restricted universe multiverse
+    deb https://mirrors.geekpie.club/ubuntu/ xenial main restricted universe multiverse
+    # deb-src https://mirrors.geekpie.club/ubuntu/ xenial main restricted universe multiverse
+    deb https://mirrors.geekpie.club/ubuntu/ xenial-updates main restricted universe multiverse
+    # deb-src https://mirrors.geekpie.club/ubuntu/ xenial-updates main restricted universe multiverse
+    deb https://mirrors.geekpie.club/ubuntu/ xenial-backports main restricted universe multiverse
+    # deb-src https://mirrors.geekpie.club/ubuntu/ xenial-backports main restricted universe multiverse
+    deb https://mirrors.geekpie.club/ubuntu/ xenial-security main restricted universe multiverse
+    # deb-src https://mirrors.geekpie.club/ubuntu/ xenial-security main restricted universe multiverse
 
     # 预发布软件源，不建议启用
-    # deb https://mirrors.geekpie.org/ubuntu/ xenial-proposed main restricted universe multiverse
-    # deb-src https://mirrors.geekpie.org/ubuntu/ xenial-proposed main restricted universe multiverse
+    # deb https://mirrors.geekpie.club/ubuntu/ xenial-proposed main restricted universe multiverse
+    # deb-src https://mirrors.geekpie.club/ubuntu/ xenial-proposed main restricted universe multiverse
 
 更改完 :file:`sources.list` 文件后请运行 ``sudo apt-get update`` 更新索引以生效。
 

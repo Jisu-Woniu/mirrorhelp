@@ -5,7 +5,7 @@ Arch Linux ARM
 地址
 ==========
 
-https://mirrors.geekpie.org/archlinuxarm/
+https://mirrors.geekpie.club/archlinuxarm/
 
 说明
 ========
@@ -22,7 +22,7 @@ Arch Linux ARM 是一个针对 ARM 电脑（如树莓派）的 Linux 发行版�
 ::
 
     [archlinuxarm]
-    Server = https://mirrors.geekpie.org/archlinuxarm/$arch
+    Server = https://mirrors.geekpie.club/archlinuxarm/$arch
 
 然后请安装 ``archlinuxcn-keyring`` 包以导入 GPG key。
 

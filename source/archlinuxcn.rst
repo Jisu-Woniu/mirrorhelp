@@ -5,7 +5,7 @@ Arch Linux CN
 地址
 ====
 
-https://mirrors.geekpie.org/archlinuxcn/
+https://mirrors.geekpie.club/archlinuxcn/
 
 说明
 ====
@@ -27,7 +27,7 @@ Arch Linux 中文社区仓库是由 Arch Linux 中文社区驱动的非官方用
 ::
 
     [archlinuxcn]
-    Server = https://mirrors.geekpie.org/archlinuxcn/$arch
+    Server = https://mirrors.geekpie.club/archlinuxcn/$arch
 
 然后请安装 ``archlinuxcn-keyring`` 包以导入 GPG key。
 
