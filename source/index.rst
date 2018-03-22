@@ -13,6 +13,7 @@ Geekpie @ ShanghaiTech Mirror Help
    archlinuxcn
    archlinuxarm
    centos
+   cygwin
    debian
    debian-security
    debian-cd
