@@ -26,6 +26,7 @@ Geekpie @ ShanghaiTech Mirror Help
    linuxmint
    raspbian
    ubuntu
+   ubuntu-cdimage
    ubuntu-ports
    ubuntu-releases
 
