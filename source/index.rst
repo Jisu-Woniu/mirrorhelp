@@ -21,6 +21,7 @@ Geekpie @ ShanghaiTech Mirror Help
    deepin-cd
    epel
    fedora
+   git-for-windows
    homebrew-bottles
    kernel
    linuxmint
