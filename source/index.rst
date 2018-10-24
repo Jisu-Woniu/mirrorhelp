@@ -21,7 +21,6 @@ Geekpie @ ShanghaiTech Mirror Help
    deepin-cd
    epel
    fedora
-   git-for-windows
    homebrew-bottles
    kernel
    linuxmint
@@ -41,6 +40,7 @@ Geekpie @ ShanghaiTech Mirror Help
    anaconda
    caffe
    CTAN
+   git-for-windows
    homebrew-bottles
    tensorflow
    ros
