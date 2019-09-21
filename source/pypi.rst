@@ -28,7 +28,7 @@ PyPI(pip) 软件源.
 
     configparser.MissingSectionHeaderError: File contains no section headers.
 
-请在`` ~/.pip/pip.conf ``最上方加上`` [global] ``这一 section header
+请在`~/.pip/pip.conf`最上方加上`[global]`这一 section header
 
 如：
 
