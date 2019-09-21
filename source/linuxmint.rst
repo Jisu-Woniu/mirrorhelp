@@ -31,16 +31,16 @@ i386，amd64
 
 编辑 :file:`/etc/apt/sources.list.d/official-lackage-repositories.list` ：
 
-* 对于基于 Ubuntu 的原版，以 Linuxmint 18.2 为例：
+* 对于基于 Ubuntu 的原版，以 Linuxmint 19 为例：
 
 ::
 
-	deb https://mirrors.geekpie.club/linuxmint/ sonya main upstream import backport
-	deb https://mirrors.geekpie.club/ubuntu/ xenial main restricted universe multiverse
-	deb https://mirrors.geekpie.club/ubuntu/ xenial-updates main restricted universe multiverse
-	deb https://mirrors.geekpie.club/ubuntu/ xenial-backports main restricted universe multiverse
-	deb https://mirrors.geekpie.club/ubuntu/ xenial-security main restricted universe multiverse
-	deb http://archive.canonical.com/ubuntu/ xenial partner
+	deb https://mirrors.geekpie.club/linuxmint/ tara main upstream import backport
+	deb https://mirrors.geekpie.club/ubuntu/ bionic main restricted universe multiverse
+	deb https://mirrors.geekpie.club/ubuntu/ bionic-updates main restricted universe multiverse
+	deb https://mirrors.geekpie.club/ubuntu/ bionic-backports main restricted universe multiverse
+	deb https://mirrors.geekpie.club/ubuntu/ bionic-security main restricted universe multiverse
+	deb http://archive.canonical.com/ubuntu/ bionic partner
 
 * 对于基于 Debian 的 LMDE，以 LMDE 2 为例：
 

@@ -2,6 +2,14 @@
 Raspbian
 ========
 
+
+地址
+======
+https://mirrors-lan.geekpie.club/raspbian/
+
+树莓派介绍
+===================
+
 Raspbian 是专门用于 ARM 卡片式计算机 Raspberry Pi® “树莓派”的操作系统。
 
 Raspberry Pi® “树莓派”是 2012 年问世的 ARM 计算机，旨在为儿童和所有的计算机爱好者提供一套廉价的编程学习与硬件 DIY 平台。树莓派基于 ARM11，具有 1080P 高清视频解析能力，附带用于硬件开发的 GPIO 接口，使用Linux操作系统。售价仅 $25~$35。

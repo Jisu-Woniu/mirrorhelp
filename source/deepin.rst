@@ -25,14 +25,14 @@ https://mirrors.geekpie.club/deepin
 然后将其中的
 ::
 
- deb [by-hash=force] http://packages.deepin.com/deepin unstable main contrib non-free
- #deb-src http://packages.deepin.com/deepin unstable main contrib non-free
+ deb [by-hash=force] http://packages.deepin.com/deepin stable main contrib non-free
+ #deb-src http://packages.deepin.com/deepinstable main contrib non-free
 
 两行更改为：
 ::
 
- deb [by-hash=force] http://mirrors.geekpie.club/deepin unstable main contrib non-free
- #deb-src http://mirrors.geekpie.club/deepin unstable main contrib non-free
+ deb [by-hash=force] http://mirrors.geekpie.club/deepin stable main contrib non-free
+ #deb-src http://mirrors.geekpie.club/deepin stable main contrib non-free
 
 即可。
 

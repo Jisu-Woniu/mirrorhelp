@@ -1,5 +1,5 @@
 ========================
-Arch Linux ARM
+Arch Linux ARM源使用帮助
 ========================
 
 地址
@@ -13,6 +13,11 @@ https://mirrors.geekpie.club/archlinuxarm/
 Arch Linux ARM 软件源（非官方）
 
 Arch Linux ARM 是一个针对 ARM 电脑（如树莓派）的 Linux 发行版，详情可见其官网：https://archlinuxarm.org/
+
+收录架构
+========
+
+ARMv5, ARMv6, ARMv7, AArch64
 
 使用方式
 ================

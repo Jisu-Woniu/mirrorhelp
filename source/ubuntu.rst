@@ -40,6 +40,10 @@ AMD64 (x86_64), Intel x86
 
  .. image:: images/ubuntu-setting.png
 
+Ubuntu 18.04+请在启动器中找到``软件与更新``，进行相同操作。 
+
+如果不喜欢中科大可以选择其他跟快的。
+
 手动更改配置文件
 ----------------
 
@@ -60,6 +64,8 @@ AMD64 (x86_64), Intel x86
 
 当然也可以直接编辑 :file:`/etc/apt/sources.list` 文件（需要使用 sudo）。以下是 Ubuntu 16.04 参考配置内容：
 
+以 Ubuntu 16.04 为例
+
 ::
 
     # 默认注释了源码仓库，如有需要可自行取消注释
@@ -75,6 +81,26 @@ AMD64 (x86_64), Intel x86
     # 预发布软件源，不建议启用
     # deb https://mirrors.geekpie.club/ubuntu/ xenial-proposed main restricted universe multiverse
     # deb-src https://mirrors.geekpie.club/ubuntu/ xenial-proposed main restricted universe multiverse
+
+
+以 Ubuntu 18.04 为例
+
+::
+
+    # 默认注释了源码仓库，如有需要可自行取消注释
+    deb https://mirrors.geekpie.club/ubuntu/ bionic main restricted universe multiverse
+    # deb-src https://mirrors.geekpie.club/ubuntu/ bionic main restricted universe multiverse
+    deb https://mirrors.geekpie.club/ubuntu/ bionic-updates main restricted universe multiverse
+    # deb-src https://mirrors.geekpie.club/ubuntu/ bionic-updates main restricted universe multiverse
+    deb https://mirrors.geekpie.club/ubuntu/ bionic-backports main restricted universe multiverse
+    # deb-src https://mirrors.geekpie.club/ubuntu/ bionic-backports main restricted universe multiverse
+    deb https://mirrors.geekpie.club/ubuntu/ bionic-security main restricted universe multiverse
+    # deb-src https://mirrors.geekpie.club/ubuntu/ bionic-security main restricted universe multiverse
+
+    # 预发布软件源，不建议启用
+    # deb https://mirrors.geekpie.club/ubuntu/ bionic-proposed main restricted universe multiverse
+    # deb-src https://mirrors.geekpie.club/ubuntu/ bionic-proposed main restricted universe multiverse
+
 
 更改完 :file:`sources.list` 文件后请运行 ``sudo apt-get update`` 更新索引以生效。
 

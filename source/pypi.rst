@@ -28,7 +28,7 @@ PyPI(pip) 软件源.
 
     configparser.MissingSectionHeaderError: File contains no section headers.
 
-请在 ~/.pip/pip.conf 最上方加上 [global] 这一 section header
+请在`` ~/.pip/pip.conf ``最上方加上`` [global] ``这一 section header
 
 如：
 
@@ -37,6 +37,14 @@ PyPI(pip) 软件源.
     [global]
     index-url = https://mirrors.geekpie.club/pypi/web/simple
     format = columns
+
+``pip`` 的配置文件一般位于（如果没有，请直接创建）：
+
+* Unix 环境: :file:`$HOME/.config/pip/pip.conf`
+* macOS: :file:`$HOME/Library/Application Support/pip/pip.conf`
+* Windows: :file:`%APPDATA%\\pip\\pip.ini` （:file:`%APPDATA%` 通常是 :file:`C:\\Users\\YOUR_USERNAME\\AppData\\Roaming\\`）
+
+全局或者 ``virtualenv`` 等的 ``pip`` 配置文件位置，请参考 https://pip.pypa.io/en/stable/user_guide/#configuration
 
 同步方式
 ========

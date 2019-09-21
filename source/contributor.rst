@@ -11,6 +11,7 @@
 
     * eastpiger
     * EricDiao
+    * murez
     * zxt
 
 * 来自 USTC 的文档维护者：

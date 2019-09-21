@@ -7,7 +7,7 @@ Geekpie @ ShanghaiTech Mirror Help
 .. toctree::
    :maxdepth: 1
 
-
+   alpine
    anthon
    archlinux
    archlinuxcn
@@ -19,7 +19,6 @@ Geekpie @ ShanghaiTech Mirror Help
    debian-cd
    deepin
    deepin-cd
-   epel
    fedora
    homebrew-bottles
    kernel
@@ -37,11 +36,15 @@ Geekpie @ ShanghaiTech Mirror Help
 .. toctree::
    :maxdepth: 1
 
-   anaconda
    caffe
    CTAN
+   CPAN
+   CRAN
+   docker-ce
    git-for-windows
    homebrew-bottles
+   msys2
+   qtproject
    tensorflow
    ros
 
