@@ -1,4 +1,4 @@
-FROM daocloud.io/nginx
+FROM nginx
 
 MAINTAINER ericdiao @ Geek Pie Association
 
