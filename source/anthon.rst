@@ -36,7 +36,7 @@ AOSC OS 支持的所有架构，包括：
 使用说明
 ========
 
-您可以直接编辑 :file:`/etc/apt/sources.list` 文件。对于任一架构 ``${ARCH}`` 和更新分支``${BRANCH}``，需要在 :file:`/etc/apt/sources.list` 中写入：
+您可以直接编辑 :file:`/etc/apt/sources.list` 文件。对于任一架构 ``${ARCH}`` 和更新分支 ``${BRANCH}`` ，需要在 :file:`/etc/apt/sources.list` 中写入：
 
 ::
 
@@ -52,7 +52,7 @@ AOSC OS 支持的所有架构，包括：
 * ``powerpc``
 * ``ppc64``
 
-``${BRANCH}`` 可以是：
+ ``${BRANCH}`` 可以是：
 * ``explosive``
 * ``rckernel``
 * ``stable``
